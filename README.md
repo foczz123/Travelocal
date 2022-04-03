@@ -1,10 +1,10 @@
-# final_project
+# Travelocal
 
-A new Flutter project.
+เป็นตัวอย่าง Application สำหรับแนะนำสถานที่ท่องเที่ยว
 
-## Getting Started
+## วิธีการใช้งาน
 
-This project is a starting point for a Flutter application.
+เริ่มต้นโดยการเข้ามาสู่หน้าแรกที่มีสถานที่ท่องเที่ยวต่างๆ สามารถคลิกที่กล่องสถานที่ท่องเที่ยวและจะนำไปสู่หน้ารายละเอียดของสถานที่ท่องเที่ยวนั้น
 
 A few resources to get you started if this is your first Flutter project:
 
