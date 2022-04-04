@@ -3,6 +3,7 @@ import 'package:final_project/model/place.dart';
 import 'package:final_project/Pages/detailpage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:final_project/sidebar/navbar.dart';
 
 import 'detailpage.dart';
 
@@ -36,15 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
+      drawer: Navbar(),
       appBar: AppBar(
         title: Text("TRAVELOCAL", style: GoogleFonts.fredokaOne(fontSize: 28)),
         centerTitle: true,
-        leading: IconButton(
-          icon: Icon(Icons.menu),
-          onPressed: () {print("tapped");},
-        ),
         backgroundColor: Colors.transparent,
       ),
+
       body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
@@ -109,4 +108,6 @@ Container buildContainer(Product product,BuildContext context,int index) {
           )),
     ),
   );
+
 }
+
