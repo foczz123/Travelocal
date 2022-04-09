@@ -52,6 +52,13 @@ class Navbar extends StatelessWidget {
               style: GoogleFonts.fredokaOne(),
             ),
           ),
+          ListTile(
+            leading: Icon(Icons.facebook),
+            title: Text(
+              "ศุภกร อยู่แขก",
+              style: GoogleFonts.fredokaOne(),
+            ),
+          ),
         ],
       ),
     );

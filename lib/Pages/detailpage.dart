@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      title: 'Passing Data',
+      title: 'Detailpage',
       home: MyApp(
         product: [],
       ),
@@ -74,7 +74,7 @@ class DetailScreen extends StatelessWidget {
                       child: Center(
                         child: Text(
                     (product.title) + " จ." + (product.subtitle),
-                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                    style: GoogleFonts.chakraPetch(fontWeight: FontWeight.bold),
                   ),
                       )),
                 ),
@@ -83,7 +83,7 @@ class DetailScreen extends StatelessWidget {
                 ),
                 Text(
                     "      " + product.description,
-                    style: TextStyle(fontSize: 16, color: Colors.black),
+                    style: GoogleFonts.chakraPetch(),
                   ),
                 SizedBox(height: 30),
                 RichText(
